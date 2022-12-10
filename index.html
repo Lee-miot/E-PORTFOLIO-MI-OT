@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-PORTFOLIO - MI-OT</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/ljicon.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img id = "pic" src="./assets/images/lee.jpeg" alt="Lee Jardin Mi-ot" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Lee Jardin Mi-ot">LEE JARDIN MI-OT</h1>
+
+          <p class="title">IT STUDENT</p>
+        </div>
+
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>More Infos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="2021-102611@rtu.edu.ph" class="contact-link">2021-102611@rtu.edu.ph</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+69 9562066436</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-01-27">January 27, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Quezon City, Metro MAnila, Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/lee.leemiot?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/leeleemeyo?t=Axwi9PlvDz861avnYid3sw&s=09" target="_blank" rel="noopener noreferrer" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/leeleemeyo/" target="_blank" rel="noopener noreferrer" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Attendance</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Lecture</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Laboratory</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Lesson Learned</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a second year Information Technology Student from Rizal Technological University. 
+            I enjoy turning complex problems into simple, beautiful and intuitive designs.
+          </p>
+
+          <p>
+            I'm a people person. I like to meet and work with lots of different people. 
+            I enjoy solving problems, troubleshooting issues, and finding solutions in a short time as possible.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Interests</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Web development is the work involved in developing a website for the Internet or an intranet.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">App Development</h4>
+
+                <p class="service-item-text">
+                  Mobile app development is the act or process by which a mobile app is developed for mobile devices, 
+                  such as personal digital assistants, enterprise digital assistants or mobile phones. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photo Editing</h4>
+
+                <p class="service-item-text">
+                  Image editing encompasses the processes of altering images, 
+                  whether they are digital photographs, traditional photo-chemical photographs, or illustrations.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - Hobbies
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Favorite Songs</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/to.png" alt="That's Okay" style="border-radius: 14px;" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>That's Okay - D.O.</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    On the day of his enlistment, Exo’s D.O. bid farewell with “That’s Okay”, a soft track that probably 
+                    comforted a lot of fans as he enlisted. D.O.’s warm voice and an acoustic guitar make up the entirety 
+                    of the song, with the occasional vocal harmony adding some variation. With little instrumental accompaniment, 
+                    the song relies on D.O.’s vocal prowess, and D.O. delivers.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/leaves.png" alt="Leaves - Ben&Ben" style="border-radius: 14px;" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Leaves - Ben&Ben</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The “Leaves” by Ben&ben because it is about the process of healing and forgiveness in a relationship. 
+                    The relationship shown in the music video was about a family with a strong bond that was developed 
+                    in the music video until a huge loss or death of the mother that created a rift between the father 
+                    and son. I like the part that says, “But in the end, what makes it worth the fight, that no matter 
+                    what happened we try to make it right,” because we should learn to forgive all the time just like 
+                    the lyrics “You never really love someone until you learn to forgive” suggests. In the end of the 
+                    music video, the father and the son, despite difficulty in their relationship, let time to fix and 
+                    heal their scar until the two are much closer to each other than before.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/everytime.png" alt="Everytime - Ariana Grande" style="border-radius: 14px;" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Everytime - Ariana Grande</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The song is about how she is constantly going back and forgiving the same guy over and over again. 
+                    No matter how many times he hurts her, she goes back ‘ Everytime ‘.
+                    Even after everyone’s tell her to “let go” of him. Which comes back to the Verse
+                    “They keep telling me to let go” and then to “But I don’t really let go when I say so”. 
+                    Meaning she’s to attached to him, never really seeing herself leaving him. She’s constantly 
+                    doing drugs or getting drunk to try and forget about him, acting as if she didn’t care for 
+                    him at all. She feels different and more like herself when she is with him, so when she’s 
+                    in no communication with him she’s very depressed and constantly thinking about him. When 
+                    she is trying to get over him and feels herself slowly getting over those feelings, he comes 
+                    back. Causing her to forgive him and come back too because of all her feelings and hope that 
+                    he has changed. But in the end it is a repeating cycle.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/sino.png" alt="Henry william" style="border-radius: 14px;" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sino - Unique</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    ‘Sino’ can be ambiguous. The music video suggests solidarity of a person when pursuing love. 
+                    All throughout the music video, we can see UNIQUE singing the song in different locations, with 
+                    him just being himself. And nothing more. To some, it might seem simple and mundane, but the song 
+                    goes deep from that perspective. Instead of telling a story using other people, the music video 
+                    highlights UNIQUE himself. The whole time, he sings about his questions about love and someone he 
+                    loves. Particularly his confusion about being in love himself and wondering what love is.
+                    It’s a typical feeling, falling in love and not knowing what to expect. However, even in the midst 
+                    of confusion, we still find ourselves falling into unrequited love. It might seem like a self-love song, 
+                    describing our confusion on what self-love entails. We have our own insecurities about ourselves and 
+                    it factors out in every relationship. And that makes us question the integrity of someone’s love for us. 
+                    That alone is confusing enough. As confusing and ambiguous as it sounds, ‘Sino’ is a self-discovery song for 
+                    anyone. Either you are exploring yourself or testing the waters of love, Sino is the best joyride song for a tranquil journey.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/to.png" alt="That's Okay - D.O." width="80" style="border-radius: 14px" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>That's Okay - D.O.</h4>
+              <div data-modal-text>
+                <p>
+                  On the day of his enlistment, Exo’s D.O. bid farewell with “That’s Okay”, a soft track that probably 
+                  comforted a lot of fans as he enlisted. D.O.’s warm voice and an acoustic guitar make up the entirety 
+                  of the song, with the occasional vocal harmony adding some variation. With little instrumental accompaniment, 
+                  the song relies on D.O.’s vocal prowess, and D.O. delivers.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Favorite Programming Languages</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/java.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/c++.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/phy.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/sql.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/php.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/js.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #ATTENDANCE
+      -->
+
+      <article class="resume" data-page="attendance">
+
+        <header>
+          <h2 class="h2 article-title">Attendance</h2>
+
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/AUG 17.PNG" alt="August 17, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Lecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-08-17">August 17, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Introduction to Course</h3>
+
+                  <p class="blog-text">
+                    Course Guide and  Introduction [Overview Data Structure, ADT] and 01 Group Activity Presentation
+                  </p>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/AUG 31.PNG" alt="August 31, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Lecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-08-31">August 31, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Introduction to Algorithm</h3>
+
+                  <p class="blog-text">
+                    01 Introduction [Algorithm] and 02 Group Activity Presentation
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/SEPT 7.png" alt="September 7, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Lecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-09-7">September 7, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Java</h3>
+
+                  <p class="blog-text">
+                    Overview: Java and 02 Recursion
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/SEPT 10.PNG" alt="September 10, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Lecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-09-10">September 10, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Recursion</h3>
+
+                  <p class="blog-text">
+                    02 Recursion [Triangular Number, Factorial]
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/SEPT 24.png" alt="September 24, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Lecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">September 24, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Array</h3>
+
+                  <p class="blog-text">
+                    03 Array and Java Examples
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/OCT 5.PNG" alt="October 5, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Lecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-10-05">October 5, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Linked List</h3>
+
+                  <p class="blog-text">
+                    04 Linked List
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/OCT 8.png" alt="October 8, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Lecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-10-08">October 8, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Linked List</h3>
+
+                  <p class="blog-text">
+                    04 Linked List : Java Examples
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/OCT 19.jpg" alt="October 19, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Lecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-10-19">October 19, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Stack</h3>
+
+                  <p class="blog-text">
+                    05 Stack and 02 Task Performance
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/OCT 22.png" alt="October 22, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Lecture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-10-22">October 22, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Stack</h3>
+
+                  <p class="blog-text">
+                    05 Stack: Java Examples and 04 Laboratory Exercise: Stack
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/NOV 12.png" alt="November 12, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Laboratory</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-11-12">November 12, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Tree</h3>
+
+                  <p class="blog-text">
+                    Tree part 01 - Reporting
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/NOV 16.png" alt="November 16, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Laboratory</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-11-16">November 16, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Tree</h3>
+
+                  <p class="blog-text">
+                    Tree part 02 - Reporting
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/att/DEC 3.png" alt="December 3, 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Laboratory</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-12-03">December 3, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Sorting</h3>
+
+                  <p class="blog-text">
+                    Sorting - Reporting
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #LECTURE
+      -->
+
+      <article class="portfolio" data-page="lecture">
+
+        <header>
+          <h2 class="h2 article-title">Lecture</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Assignment/Activity</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Quiz</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Task Performance</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-select-item>Exam</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-select-item>Final Period</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Assignment/Activity</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Quiz</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Task Performance</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Exam</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Final Period</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="assignment/activity">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/GA1.png" alt="Group Activity 1" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Group Activity 1</h3>
+
+                <p class="project-category">Assignment/Activity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="assignment/activity">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/GA2.png" alt="Group Activity 2" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Group Activity 2</h3>
+
+                <p class="project-category">Assignment/Activity</p>
+                
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="quiz">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/Q1.png" alt="Quiz 1" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Quiz 1</h3>
+
+                <p class="project-category">Quiz</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="quiz">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/Q2.png" alt="Quiz 2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Quiz 2</h3>
+
+                <p class="project-category">Quiz</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="exam">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/ME LEC.png" alt="Midterm Exam" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Midterm Exam</h3>
+
+                <p class="project-category">Exam</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="assignment/activity">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/A1.png" alt="Assignment 1" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Assignment 1</h3>
+
+                <p class="project-category">Assignment/Activity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="assignment/activity">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/A2.png" alt="Assignment 2" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Assignment 2</h3>
+
+                <p class="project-category">Assignment/Activity</p>
+                
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="assignment/activity">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/A3.png" alt="Assignment 3" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Assignment 3</h3>
+
+                <p class="project-category">Assignment/Activity</p>
+                
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="task performance">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/Task Performance.png" alt="Task Performance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Performance [REP/REC]</h3>
+
+                <p class="project-category">Task Performance</p>
+                
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="quiz">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/Q3.png" alt="Quiz 3" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Quiz 3</h3>
+
+                <p class="project-category">Quiz</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="final period">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LEC/FE.png" alt="E-Portfolio - Lecture" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-Portfolio - Lecture</h3>
+
+                <p class="project-category">Final Period</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #LABORATORY
+      -->
+      <article class="blog" data-page="laboratory">
+
+        <header>
+          <h2 class="h2 article-title">Laboratory</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+              <li class="filter-item">
+                <button data-select-item>Laboratory Exercise</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-select-item>Task Performance</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-select-item>Exam</button>
+              </li>
+              
+              <li class="filter-item">
+                <button data-select-item>Final Period</button>
+              </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button  data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Laboratory Exercise</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Task Performance</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Exam</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Final Period</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="laboratory exercise">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LAB/LB1.png" alt="Laboratory Exercise 1" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Laboratory Exercise 1</h3>
+
+                <p class="project-category">Laboratory Exercise</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="laboratory exercise">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LAB/LB2.png" alt="Laboratory Exercise 2" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Laboratory Exercise 2</h3>
+
+                <p class="project-category">Laboratory Exercise</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="laboratory exercise">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LAB/LB3.png" alt="Laboratory Exercise 3" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Laboratory Exercise 3</h3>
+
+                <p class="project-category">Laboratory Exercise</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="laboratory exercise">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LAB/LB4.png" alt="Laboratory Exercise 4" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Laboratory Exercise 4</h3>
+
+                <p class="project-category">Laboratory Exercise</p>
+
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="task performance">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LAB/TP1.png" alt="Task Performance" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Task Performance 1</h3>
+
+                <p class="project-category">Task Performance</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="exam">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LAB/ME LAB.png" alt="Midterm Exam" loading="lazy" >
+                </figure>
+                <h3 class="project-title">Midterm Exam</h3>
+
+                <p class="project-category">Exam</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="final period">
+              <a href="#">
+
+                <figure class="project-img">
+
+                  <img src="./assets/images/LAB/FE.png" alt="Final Period" loading="lazy" >
+                </figure>
+                <h3 class="project-title">E-PORTFOLIO - LABORATORY</h3>
+
+                <p class="project-category">Final Period</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+      <article class="about  active" data-page="lesson learned">
+
+        <header>
+          <h2 id="txt"class="h2 article-title">Lesson Learned</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Every year, as we go from one level to the next, we learn something new. 
+            Throughout the first semester, I believe I learned a lot from all of my subjects, 
+            particularly my Data Structures and Algorithms subject. These teachings have had a 
+            significant influence on me, and I am confident that they will continue to do so in the future.
+             Although Data Structures and Algorithms is not my greatest strength, this year's Data Structures and 
+             Algorithms class taught me that I still had a lot to learn and improve on.
+          </p>
+
+          <p>
+            Ma'am Luna taught me that everyone has potential, but it takes hard work to realize that potential. 
+            Make smart decisions rather than the best decisions. 
+            Because success does not happen immediately, we must continually strive.
+            As an aspiring Cloud Engineer, all of Ma'am Luna's lessons have transformed me into a 
+            better and more passionate individual.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Favorite Topics</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/list.svg" alt="Linked List" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <a href="https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm" 
+                target="_blank"><h4 class="h4 service-item-title"><u>Linked List</u></h4></a>
+
+                <p class="service-item-text">
+                  A linked list is a sequence of data structures, which are connected together via links. 
+                  Linked List is a sequence of links which contains items. Each link contains a connection 
+                  to another link. Linked list is the second most-used data structure after array. Following 
+                  are the important terms to understand the concept of Linked List.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/stack.svg" alt="Stack" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <a href="https://www.simplilearn.com/tutorials/data-structure-tutorial/stacks-in-data-structures" 
+                target="_blank"><h4 class="h4 service-item-title"><u>Stack</u></h4></a>
+
+                <p class="service-item-text">
+                  Stacks in Data Structures is a linear type of data structure that follows the 
+                  LIFO (Last-In-First-Out) principle and allows insertion and deletion operations 
+                  from one end of the stack data structure, that is top. Implementation of the stack 
+                  can be done by contiguous memory which is an array, and non-contiguous memory which 
+                  is a linked list. Stack plays a vital role in many applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/tree.svg" alt="Tree" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <a href="https://www.programiz.com/dsa/trees" 
+                target="_blank"><h4 class="h4 service-item-title"><u>Tree</u></h4></a>
+
+                <p class="service-item-text">
+                  In this tutorial, you will learn about tree data structure. Also, you will learn about different 
+                  types of trees and the terminologies used in tree.
+                  A tree is a nonlinear hierarchical data structure that consists of nodes connected by edges.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/sorting.svg" alt="Sorting" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <a href="https://www.codingninjas.com/codestudio/library/sorting-in-data-structure-categories--types" 
+                target="_blank"><h4 class="h4 service-item-title"><u>Sorting</u></h4></a>
+
+                <p class="service-item-text">
+                  Sorting is an arrangement of data in a particular order.But if we talk about sorting in
+                  Data Structure then it’s more relevant to rearrange the data or element in ascending or 
+                  descending order which can be lexicographical, numerical, or maybe user-defined.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
